@@ -47,7 +47,5 @@ ul li:nth-child(odd){
     padding: 5px;
 
 }
-ul li:nth-last-child(odd){
-    background-color: rgb(197, 234, 173)
-}
+
 
