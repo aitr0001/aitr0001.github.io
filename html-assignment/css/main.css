@@ -1,0 +1,39 @@
+body {
+    font-family:'Ariel Narrow Bold';
+    font-size: 18px;
+}
+header, footer {
+    background-color: rgb(215, 94, 38);
+}
+/* Class selector: change the color of the main heading */
+.site-title {
+    color:rgb(178, 165, 53)
+}
+/* ID selector:Add a box-shadow to the image*/
+#my-image {
+    box-shadow:0px 0px 2px 1px rgb(25, 90, 25);
+}
+/* Change list bullets in the hobbies section to squares */
+#hobbies ul {
+    list-style-type: square;
+}
+/* nth-child selector:Add background to odd list items */
+#hobbies ul li:nth-child(odd) {
+    background-color:rgb(97, 97, 6); 
+}
+nav ul li a {
+    display: inline;
+}
+nav ul il a {
+    text-decoration: solid;/*remove underline*/
+    padding: 5px 10px;
+    border: 1px wavy
+    background-color:orangered
+    border-radius:6px;
+}
+/* Hover and focus effect*/
+nav ul li a:hover,
+nav ul li a:focus{
+    background-color:rgb(61, 37, 6)
+    color:whitesmoke
+}
