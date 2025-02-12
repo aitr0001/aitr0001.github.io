@@ -3,17 +3,17 @@ body {
     font-size: 18px;
 }
 header, footer {
-    background-color: rgb(215, 94, 38);
+    background-color: rgb(253, 29, 234);
     padding: 10px;
     text-align: center;
 }
 /* Class selector: change the color of the main heading */
 .site-title {
-    color:rgb(178, 165, 53)
+    color:rgb(7, 67, 82)
 }
 /* ID selector:Add a box-shadow to the image*/
 #my-image {
-    box-shadow:0px 0px 2px 1px rgb(71, 94, 19);
+    box-shadow:0px 0px 2px 1px rgb(187, 6, 172);
 display: block;
 margin: 10px auto;
 }
@@ -28,14 +28,14 @@ nav ul li {
 }
 nav a{
     text-decoration: none;
-    background-color: #2dbc64c8;
-    border: 1px solid #4696b8;
+    background-color: #f001d8c8;
+    border: 1px solid #ff21f8;
     padding:  5px 10px;
     border-radius: 5px;
-    color:  rgb(40, 138, 92);
+    color:  rgb(127, 149, 247);
     
 }
-nav a :hover , nav a :focus {
+nav a :hover, nav a :focus {
     background-color: bisque;
 }
 /* hobbies list styling */
@@ -43,7 +43,7 @@ ul{
     list-style-type: square;
 }
 ul li:nth-child(odd){
-    background-color: rgb(20, 151, 212);
+    background-color: rgb(112, 144, 239);
     padding: 5px;
 
 }
